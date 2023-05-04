@@ -11,11 +11,11 @@
   <style>
 
 
-
     /* Mobile */
     @media only screen and (max-width: 420px) {
       .container {
-        /* border: 2px solid black; */
+        display:flex;
+        border: 2px solid black;
         align-items: flex-start;
         margin: 0;
       }
@@ -58,13 +58,15 @@
 
       input {
         width: 100%;
+
+        
       }
     }
 
     /* TABLET */
     @media only screen and (max-width: 800px) {
       .container {
-        /* border: 2px solid black; */
+        border: 2px solid black;
         margin: 0;
       }
 
@@ -110,10 +112,12 @@
     /* DESKTOP/LAPTOP */
     @media only screen and (min-width: 1024px) {
       .container {
+        border: 2px solid black;
         display: flex;
-        justify-content: center;
-        align-items: flex-start;
         flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      
         
       }
 
@@ -121,6 +125,8 @@
         border: 2px solid black;
         max-width: 400px;
         margin-left: 0;
+        display: center;
+        align-items: center;
        
       }
 
@@ -138,7 +144,7 @@
       }
 
       form {
-        border: 2px solid black;
+       
         display: flex;
         flex: 1;
         flex-direction: column;
